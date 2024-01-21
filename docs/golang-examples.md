@@ -26,10 +26,9 @@ func main() {
 }
 ```
 
-::: details
-This is a details block.
+::: danger 注意事项
+在邮件开始发送前，请给请求添加时间间隔，详细的 Email Ratelimit 请咨询邮件服务供应商。
 :::
-
 ## 🤖 Discord 机器人初始化
 
 Discord Bot Init
