@@ -25,9 +25,11 @@ func main() {
 	d.DialAndSend(m)
 }
 ```
+```md
 ::: 注意事项
 批量发送请设置请求时间间隔。
 :::
+```
 
 ## 🤖 Discord 机器人初始化
 
