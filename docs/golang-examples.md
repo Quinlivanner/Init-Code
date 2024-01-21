@@ -24,8 +24,10 @@ func main() {
 	d := gomail.NewDialer("邮件服务器地址", 465, "发送邮箱邮箱号", "邮箱密码")
 	d.DialAndSend(m)
 }
-
 ```
+::: 注意事项
+批量发送请设置请求时间间隔。
+:::
 
 ## 🤖 Discord 机器人初始化
 
