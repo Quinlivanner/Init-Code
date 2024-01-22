@@ -20,7 +20,7 @@ export default defineConfig({
         ]
       }
     ],
-
+    outlineTitle:"缩略",
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
