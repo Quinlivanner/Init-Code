@@ -13,7 +13,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '分类',
         items: [
           { text: 'Golang Code', link: '/golang-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
