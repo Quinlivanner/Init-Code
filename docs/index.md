@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+title: "🫠"
 hero:
   name: "备忘录"
   text: "一堆破烂罢了"
