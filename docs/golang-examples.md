@@ -2,6 +2,37 @@
 
 Golang 精炼功能代码片段
 
+## 🌐 Gin Web 框架初始化
+
+记得开放端口。
+
+**Code**
+
+```go{4}
+package main
+
+import (
+	"github.com/gin-gonic/gin"
+)
+
+func main() {
+	GinServicesInit()
+}
+func GinServicesInit() {
+	r := gin.Default()
+	r.GET("/", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"code":    "0",
+			"message": "success",
+		})
+		return
+	})
+
+	r.Run(":7777")
+}
+
+```
+
 ## 📤 使用域名邮箱发送邮件
 
 不仅限于域名邮箱，只要是能够访问到邮件服务器都可。
